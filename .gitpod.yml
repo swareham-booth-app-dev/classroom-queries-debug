@@ -1,4 +1,4 @@
-image: patrickmckernin/classroom-queries-debug-fall2020
+image: jelaniwoods/appdev2021-classroom-queries-debug
 
 tasks:
   - init: bin/setup
