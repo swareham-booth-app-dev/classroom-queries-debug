@@ -1,4 +1,5 @@
-image: patrickmckernin/classroom-queries-debug-fall2020
+image:
+  file: Dockerfile
 
 tasks:
   - init: bin/setup
