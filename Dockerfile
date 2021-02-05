@@ -6,7 +6,6 @@ WORKDIR /base-rails
 COPY Gemfile /base-rails/Gemfile
 COPY Gemfile.lock /base-rails/Gemfile.lock
 
-# RUN /bin/bash -l -c "gem install bundler -v 2.1.4 --default"
-# RUN /bin/bash -l -c "gem update --system"
-ENV PATH $GEM_HOME/bin:$GEM_HOME/gems/bin:$PATH
 RUN /bin/bash -l -c "bundle install"
+RUN echo "rvm use 2.6.6" >> ~/.bashrc
+RUN echo "rvm_silence_path_mismatch_check_flag=1" >> ~/.rvmrc
