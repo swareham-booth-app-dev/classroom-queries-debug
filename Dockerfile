@@ -6,4 +6,5 @@ WORKDIR /base-rails
 COPY Gemfile /base-rails/Gemfile
 COPY Gemfile.lock /base-rails/Gemfile.lock
 
-RUN /bin/bash -l -c "bundle install"
+RUN gem update --system
+RUN bundle install
