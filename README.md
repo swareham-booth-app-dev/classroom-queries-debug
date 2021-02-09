@@ -1,8 +1,14 @@
 # Classroom Queries Debug
 
+Test what you learned in the [MSM Queries](https://github.com/appdev-projects/msm-queries) project with a debugging exercises.
+
 ## Target
 
+Make your app function like this target:
+
 [https://classroom-queries-debug.matchthetarget.com](https://classroom-queries-debug.matchthetarget.com)
+
+The starter code is incomplete and buggy.
 
 ## Setup
 
