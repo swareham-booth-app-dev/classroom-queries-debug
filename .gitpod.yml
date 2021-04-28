@@ -1,6 +1,7 @@
-image: jelaniwoods/appdev2021-classroom-queries-debug
+image: jelaniwoods/appdev2021-classroom-queries-debug@sha256:8258a15b6abe6de5bf5e6c471f7a51764dc1c812e4d2aac7e0c2a7d5e2f1352e
 
 tasks:
+  - command: bundle install
   - init: bin/setup
 ports:
   - port: 3000
